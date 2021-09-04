@@ -5,29 +5,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
-    <style>body{font-family: 'Poppins', sans-serif; font-weight:200;}h1{font-weight:200;}p{font-weight:300}</style>
+    <style>body{font-family: 'Poppins', sans-serif; font-weight:200; background-color: #F7FCFF;}h1{font-weight:200;}p{font-weight:300}</style>
 </head>
 <title>Lost in Groove LTD</title>
 <link rel="icon" type="image/png" href="images/Circle-Logo-50px.png" />
-<body class="bg-blue-100">
-<div class="flex w-full flex-col lg:flex-row justify-between py-10 lg:py-20 lg:px-24 xl:px-40 space-y-4 lg:space-y-0">
+<body>
+<div class="flex w-full flex-col lg:flex-row justify-between space-y-4 lg:space-y-0">
     <div class="px-4 space-y-8 w-full lg:w-1/2">
-        <h1 class="text-4xl">Welcome to Lost in Groove</h1>
-        <div class="space-y-4">
-            <p>Allow me to introduce myself, I am George Heaton the founder of Lost in Groove LTD. I have a passion for house music, from melodic to techno and everything in between. This brand is founded on that love for all things house. </p>
-            <p>Lost in Groove aims create a brand that offers people the opportunity to express their love for all things house through high quality, subtle, stylish, and timeless clothing that can be worn for any occasion. It should be an extension of yourselves and allow you to characterise your passion. </p>
-            <p>For exclusive news, promotions, and early access please sign up below. </p>
-        </div>
-        <div>
-            <input type="email" placeholder="Email" required="required" class="bg-blue-100 border-black border-t border-b py-2 w-1/2 px-2"/>
-            <button class="bg-black text-white px-10 py-2">Subscribe</button>
+        <h1 class="text-5xl pt-4 lg:pt-20 lg:pl-20">Welcome to Lost in Groove</h1>
+        <div class="space-y-4 lg:pl-20">
+            <p class="text-lg">Allow me to introduce myself, I am George Heaton the founder of Lost in Groove LTD. I have a passion for house music, from melodic to techno and everything in between. This brand is founded on that love for all things house. </p>
+            <p class="text-lg">Lost in Groove aims create a brand that offers people the opportunity to express their love for all things house through high quality, subtle, stylish, and timeless clothing that can be worn for any occasion. It should be an extension of yourselves and allow you to characterise your passion. </p>
+            <p class="text-lg">For exclusive news, promotions, and early access please sign up below. </p>
         </div>
         
+        
     </div>
-    <div class="flex flex-col justify-between w-full lg:w-1/2 flex items-center lg:space-y-4">
-        <img src="images/Circle Logo 500px.png" class="w-1/2 lg:w-full xl:w-3/4 py-4 lg:py-0"/>
-        <p class="order-first lg:order-last text-2xl" id="demo">DD:HH::MM:SS</p>
+    <div class="flex flex-col justify-between w-full lg:w-1/2 flex items-end lg:space-y-4">
+        <img src="images/circle-cropped.png" class="w-1/2 lg:w-full xl:w-3/4 py-4 lg:py-0"/>
     </div>
+</div>
+<div class="flex flex-row w-full pt-10 justify-start align-middle">
+    <div class="pl-4 lg:pl-20 lg:w-1/2">
+        <input type="email" placeholder="Email" required="required" class="border-black border-t border-b py-2 lg:w-1/2 px-2 text-lg" style="background-color: #F7FCFF";/><button class="bg-black text-white px-10 py-2 text-lg border border-black">Subscribe</button>
+    </div>
+    <p class="text-3xl font-bold pl-10" id="demo">DD:HH::MM:SS</p>
 </div>
 <script>
     // Set the date we're counting down to
